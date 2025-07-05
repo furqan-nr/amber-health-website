@@ -1,0 +1,3 @@
+# Place your artist/performer image here
+# This should be the black and white image of the artist performing on stage
+# Rename your image file to "image.png" and place it in this public folder
