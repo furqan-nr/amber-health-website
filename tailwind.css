@@ -46,6 +46,23 @@
     animation: bounceIn 0.8s ease-out;
   }
 
+  /* Delayed animations for staggered effects */
+  .animate-revealCard-delay-1 {
+    animation: revealCard 0.5s ease-out 0.2s both;
+  }
+
+  .animate-revealCard-delay-2 {
+    animation: revealCard 0.5s ease-out 0.4s both;
+  }
+
+  .animate-fadeInUp-delay-1 {
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+  }
+
+  .animate-fadeInUp-delay-2 {
+    animation: fadeInUp 0.8s ease-out 0.4s both;
+  }
+
   /* Hover Effects */
   .hover-float {
     transition: transform 0.3s ease;
@@ -68,7 +85,7 @@
   }
 
   .hover-glow:hover {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 0 20px rgba(251, 146, 60, 0.3);
   }
 
   /* Safe Basic Animations Only */
@@ -104,7 +121,7 @@
   }
 
   .hover-glow:hover {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 0 20px rgba(251, 146, 60, 0.3);
   }
 
   /* Hero Section Circle Animations */
