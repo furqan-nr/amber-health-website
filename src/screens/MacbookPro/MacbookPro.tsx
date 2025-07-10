@@ -24,7 +24,7 @@ export const MacbookPro = (): JSX.Element => {
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 0.75 }}
           transition={{ duration: 1.2, delay: 0.5, ease: "easeOut" }}
-          className="hero-background-circle absolute top-0 right-0 w-[400px] h-[400px] sm:w-[500px] sm:h-[500px] md:w-[650px] md:h-[650px] lg:w-[800px] lg:h-[800px] xl:w-[950px] xl:h-[950px] bg-gradient-to-br from-yellow-500 to-red-600 rounded-full z-0 transform translate-x-[120px] sm:translate-x-[150px] md:translate-x-[200px] lg:translate-x-[250px] xl:translate-x-[300px] -translate-y-[120px] sm:-translate-y-[150px] md:-translate-y-[200px] lg:-translate-y-[250px] xl:-translate-y-[300px] pointer-events-none"
+          className="hero-background-circle absolute top-0 -right-[200px] w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] xl:w-[700px] xl:h-[700px] bg-gradient-to-br from-yellow-500 to-red-600 rounded-full z-0 transform translate-x-[120px] sm:translate-x-[150px] md:translate-x-[200px] lg:translate-x-[250px] xl:translate-x-[300px] -translate-y-[120px] sm:-translate-y-[150px] md:-translate-y-[200px] lg:-translate-y-[250px] xl:-translate-y-[300px] pointer-events-none"
         ></motion.div>
         
         {/* Simple decorative elements */}
